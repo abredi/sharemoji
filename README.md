@@ -3,8 +3,6 @@
   <h1 align="center">Sharemoji</h1>
 
   <p align="center">
-    Beautiful tab-based webpages for the restaurant with clean web design.
-    In this project, I developed a restaurant webpage for practicing DOM manipulation by dynamically rendering HTML web pages.
   </p>
 
 ### Built with
@@ -18,7 +16,7 @@
 
 > Follow these steps to set up and run the quickstart:
   - Clone/Download this repo and open this folder in a Terminal.
-    `git clone https://github.com/abredi/restaurant-page.git`
+    `git clone https://github.com/abredi/sharemoji.git`
   - Install the Nodejs:
   [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
 
@@ -31,7 +29,7 @@
 
 ### Live Demo
 
-[Click here](https://abredi.github.io/restaurant-page/)
+[Click here](https://abredi.github.io/sharemoji/)
 
 ### Author
 
@@ -40,13 +38,13 @@
 - Website [azizali.ml](https://azizali.ml/)
 - Github: [@abredi](https://github.com/abredi)
 - Twitter: [@rediabdulaziz](https://twitter.com/rediabdulaziz)
-- Linkedin: [linkedin](https://www.linkedin.com/in/abdulaziz-ali-98948011a)
+- Linkedin: [linkedin](https://www.linkedin.com/in/abdulazizrediali/  )
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/abredi/restaurant-page/issues).
+Feel free to check the [issues page](https://github.com/abredi/sharemoji/issues).
 
 ## Show your support
 
