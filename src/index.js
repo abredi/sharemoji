@@ -4,10 +4,6 @@ import favIcon from './img/favicon.png';
 import greetingModule from "./dom";
 import APIModule from "./api";
 
-// var xhr = $.get("");
-// xhr.done(function(data) { console.log("success got data", data); });
-
-
 const init = () => {
   const gm = greetingModule();
   const api = APIModule();
