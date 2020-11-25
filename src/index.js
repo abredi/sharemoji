@@ -1,7 +1,12 @@
 import './css/vendor/tailwind.vendor.css';
 import './css/style.css';
+import favIcon from './img/favicon.png';
 import greetingModule from "./dom";
 import APIModule from "./api";
+
+// var xhr = $.get("");
+// xhr.done(function(data) { console.log("success got data", data); });
+
 
 const init = () => {
   const gm = greetingModule();
@@ -10,9 +15,14 @@ const init = () => {
   mainContent.classList.add(...['flex', 'justify-center'])
   mainContent.appendChild(gm.createGreeting('Hello World'));
 
-  const img = document.querySelector('img');
-  api.get();
+  const title = document.getElementById('favIcon');
+  title.setAttribute('href', favIcon);
 
+  const img = document.querySelector('img');
+  const xhr = api.get();
+  xhr.then(function(response) {
+    img.src = response.data.images.original.url;
+  });
 };
 
 init();
