@@ -51,5 +51,3 @@ Feel free to check the [issues page](https://github.com/abredi/sharemoji/issues)
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
-Thanks for Karina Altovska for the design.
