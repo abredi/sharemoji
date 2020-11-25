@@ -3,5 +3,6 @@ node_modules
 .vscode
 .DS_Store
 .idea
+key.js
 src/cop.htm
 src/components.html
