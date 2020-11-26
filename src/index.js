@@ -1,24 +1,30 @@
 import './css/vendor/tailwind.vendor.css';
-import './css/style.css';
+import './css/style.scss';
 import favIcon from './img/favicon.png';
-import greetingModule from "./dom";
+import domModule from "./dom";
 import APIModule from "./api";
 
-const init = () => {
-  const gm = greetingModule();
+const displayGrid = (uri = 'stickers/trending', query = null) => {
+  const dm = domModule();
   const api = APIModule();
-  const mainContent = document.getElementById('content');
-  mainContent.classList.add(...['flex', 'justify-center'])
-  mainContent.appendChild(gm.createGreeting('Hello World'));
+  const xhr = api.get(uri, query);
+  xhr.then(function(response) {
+    dm.displayCards(response.data);
+  });
+};
 
+const init = () => {
   const title = document.getElementById('favIcon');
   title.setAttribute('href', favIcon);
 
-  const img = document.querySelector('img');
-  const xhr = api.get();
-  xhr.then(function(response) {
-    img.src = response.data.images.original.url;
-  });
+  displayGrid();
 };
+
+document.getElementById('search').addEventListener('click', (event) => {
+  const q = document.getElementById('q');
+  if (q.value !== '') {
+    displayGrid('gifs/search', q.value);
+  }
+});
 
 init();
