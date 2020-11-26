@@ -51,3 +51,7 @@ Feel free to check the [issues page](https://github.com/abredi/sharemoji/issues)
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
+<a href="https://iconscout.com/icons/whatsapp" target="_blank">Whatsapp Icon</a> by <a href="https://iconscout.com/contributors/viconsdesign">Vicons Design</a> on <a href="https://iconscout.com">Iconscout</a>
+<a href="https://iconscout.com/icons/slack" target="_blank">SLack Icon</a> by <a href="https://iconscout.com/contributors/icon-mafia">Icon Mafia</a> on <a href="https://iconscout.com">Iconscout</a>
+<a href="https://iconscout.com/icons/link" target="_blank">Link Icon</a> by <a href="https://iconscout.com/contributors/unicons" target="_blank">Unicons Font</a>
+<a href="https://iconscout.com/icons/link-page" target="_blank">Link Page Icon</a> by <a href="https://iconscout.com/contributors/omarsafaa">Omar Safaa</a> on <a href="https://iconscout.com">Iconscout</a>
