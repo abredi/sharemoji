@@ -1,6 +1,13 @@
 import shareSvg from './img/share.svg';
 
 const domModule = () => {
+  const clearContent = () => {
+    const content = document.getElementById('content');
+    while (content.firstChild) {
+      content.removeChild(content.firstChild);
+    }
+  };
+
   const createElem = (elemName, classes = [], attrs = '', eventListner = null) => {
     const elem = document.createElement(elemName);
     if (classes.length > 0) {
@@ -41,9 +48,9 @@ const domModule = () => {
   };
 
   const displayCards = (data) => {
-    const content = document.getElementById('main');
-
-    data.forEach(item => {
+    clearContent();
+    const content = document.getElementById('content');
+    data.forEach(item => {  
       content.appendChild(createCard(item.images.original.url));
     });
   };
